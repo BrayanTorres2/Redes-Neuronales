@@ -1,0 +1,6 @@
+Python 3.10 -> https://www.python.org/downloads/release/python-31012/
+python -m venv tacos_env
+windows -> .\tacos_env\Scripts\activate
+linux/mac -> source tacos_env/bin/activate
+librerias -> pip install tensorflow==2.14.0 numpy==1.26.4
+verifica versiones instaldas -> python -c "import tensorflow as tf; import numpy as np; print('TensorFlow:', tf.__version__); print('NumPy:', np.__version__)"
