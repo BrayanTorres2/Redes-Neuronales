@@ -1,0 +1,18 @@
+# Crear un entorno virtual (llamado "venvNN", puedes cambiar el nombre)
+python -m venv venvSemana3
+
+# Activar entorno virtual
+# En Linux / Mac
+source venvSemana3/bin/activate
+
+# En Windows (PowerShell)
+
+.\venvSemana3\Scripts\activate
+----------------------------------------
+#Actualizar pip
+python -m pip install --upgrade pip
+---------------------------------------------------------
+#Instalar dependencias necesarias
+pip install tensorflow scikit-learn numpy matplotlib
+
+
